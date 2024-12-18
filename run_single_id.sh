@@ -1,0 +1,11 @@
+python single_id_generation.py \
+    --prompt "A young man with short black hair, wearing a black hoodie." \
+    --pil_faceid_image data_ip/kobe.png \
+    --mix_scale_1 0.5 \
+    --faceid_scale 0.7 \
+    --face_structure_scale 0.1 \
+    --num_samples 2 \
+    --seed 42 \
+    --image_resolution "512x512" \
+    --inference_steps 25 \
+    --output_dir "outputs/single_id"
